@@ -1,0 +1,180 @@
+.container{
+    height: 100%;  /*拉紙的長度*/
+}
+
+.boxA{
+    display: flex;
+    width: 100%;
+    height: 500px; /*注意!!*/
+}
+
+.boxA1{
+    position: relative; 
+    float: left;
+    width: 50%;
+    height: 500px;
+    left: 50px;
+    filter: drop-shadow(10px 10px 5px rgba(99, 102, 86, 0.7));
+}
+
+
+.pp:hover{
+    transform:translateX(-60px);
+    transition: 2s;
+    filter: blur(0px);    /*模糊好用~~~*/
+}
+.boxA1:hover{
+    transform:scale(1.1);
+    transition : 3s;
+}
+
+.boxA1_1{
+    position: relative;
+    float: left;
+    font-family: "微軟正黑體";
+    font-size: x-large;
+    font-weight: bold;
+    width: 550px;
+    line-height: 60px;
+    left: 10%;
+    top: 25%;
+    z-index: 1;
+}
+
+.boxA1_2{
+    position: absolute;
+    float: left;
+    width: 600px;
+    height: 400px;
+    left: 0%;
+    top: 10%;
+    z-index: 0;
+}
+
+.boxA1_2 img{
+    width: 700px;
+    height: 100%;
+}
+
+.boxA1_3 img{
+    position: absolute;
+    width: 700px;
+    height: 100%;
+    left: 87%;
+    z-index: 2;
+}
+
+/*-------------------*/
+
+.boxB{
+    display: flex;
+    width: 100%;
+    height: 500px; /*注意!!*/
+}
+
+.boxB1{
+    position: relative; 
+    float: left;
+    width: 50%;
+    height: 500px;
+    left: 50px;
+}
+
+.boxB1_1{
+    position: absolute;
+    float: left;
+    font-family: "微軟正黑體";
+    font-size: x-large;
+    font-weight:bold;
+    color: rgb(63, 56, 56);
+    width: 600px;
+    line-height: 60px;
+    left: 80%;
+    top: 23%;
+}
+
+.boxB1 .boxB1_1:hover{
+    transform:scale(1.1);
+    transition: 1.5s;
+}
+
+
+.boxB1_2{                 /*圖片*/
+    position: absolute;
+    float: left;
+    width: 30%;
+    left: 13%;
+    top: 15%;
+}
+.ss{
+    filter: drop-shadow(12px 12px 7px rgba(99, 102, 86, 0.7));
+}
+
+.boxB1 .boxB1_2:hover{
+    transform:scale(1.2);
+    transition: 1s;
+}
+
+/*-------------*/
+
+.boxC{
+    display: flex;
+    width: 100%;
+    height: 600px; /*注意!!*/
+    padding: 10px 0 10px 0;
+}
+
+
+.boxC1{
+    position: relative; 
+    float: left;
+    width: 50%;
+    height: 500px;
+    left: 50px;
+}
+
+.boxC1 :hover{
+    transform:scale(1.1);
+    transition: 3s;
+}
+
+.boxC1_1{
+    position: absolute;
+    float: left;
+    font-family: "微軟正黑體";
+    font-size: x-large;
+    font-weight: bold;
+    width: 600px;
+    line-height: 60px;
+    left: 10%;
+    top: 30%;
+}
+
+.boxC1_2{                 /*圖片*/
+    position: absolute;
+    float: left;
+    width: 25%;
+    left: 100%;
+    top: -15%;
+}
+.cc{
+    filter: drop-shadow(12px 12px 7px rgba(99, 102, 86, 0.7));
+}
+
+
+/*-------------*/
+.boxD{
+    z-index: 0;
+    position: absolute;
+    left: 30%;
+    top: 1200px;
+    width: 560px;
+}
+
+.boxE{
+    z-index: 0;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    width: 560px;
+}

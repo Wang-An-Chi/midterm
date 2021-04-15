@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap');
+    body {
+      background-color: #ccd3ce; 
+    }
+
+    .container {
+      height: 100%;
+    }
+
+    .abouttitle {
+      position: relative;
+      display: flex;
+      z-index: 0;
+      height: 200px;
+      width: 100%;
+    }
+
+    .person1 {
+      position: relative;
+      display: flex;
+      z-index: 0;
+      height: 500px;
+
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .person2 {
+      position: relative;
+      z-index: 0;
+      height: 500px;
+      border: 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .person3 {
+      position: relative;
+      z-index: 0;
+      height: 500px;
+      width: 100%;
+      box-sizing: border-box;
+      
+    }
+
+    .person4 {
+      position: relative;
+      z-index: 0;
+      height: 500px;
+      width: 100%;
+      box-sizing: border-box;
+     
+    }
+    .ustitle {
+      position: absolute;
+      z-index: 1;
+      justify-items: center;
+      filter: drop-shadow(12px 12px 7px rgba(105, 103, 117, 0.7))
+    }
+
+    .an {
+      position: absolute;
+      z-index: 1;
+      left: 7%;
+      float: left;
+      top: 40px;
+    }
+
+    .intro1 {
+      position: absolute;
+      border: 0;
+      width: 650px;
+      line-height: 60px;
+      left: 40%;
+      top: 10%;
+      font-size: large;
+      font-family: 'Noto Serif TC', serif;
+      border-radius: 20px;
+      background: rgb(241, 240, 240);
+      padding: 10px;
+    }
+
+    .wei {
+      position: absolute;
+
+      z-index: 1;
+      left: 65%;
+      top: 0%;
+    }
+
+    .intro2 {
+      position: absolute;
+      left: 0px;
+      float: left;
+      line-height: 50px;
+      width: 700px;
+      height: 350px;
+      top: 40px;
+      font-size: large;
+      font-family: 'Noto Serif TC', serif;
+      border-radius: 20px;
+      background: rgb(241, 240, 240);
+      padding: 10px;
+      
+    }
+
+    .hao {
+      position: absolute;
+      z-index: 1;
+      left: 6%;
+      float: left;
+      top: -80px;
+
+    }
+
+    .zhou {
+      position: absolute;
+
+      z-index: 1;
+      left: 65%;
+      top: 0%;
+
+    }
+
+    .chi:hover {
+      transform: rotate(-6deg) scale(1.1);
+      transition: 0.2s;
+
+    }
+
+    .xi:hover {
+      transform: rotate(8deg) scale(1.1);
+      transition: 0.2s;
+
+    }
+
+    .yun:hover {
+      transform: rotate(-8deg) scale(1.1);
+      transition: 0.2s;
+    }
+
+    .zhou:hover {
+      transform: rotate(8deg) scale(1.1);
+      transition: 0.2s;
+
+    }
+
+    .chi {
+      width: 280px;
+    }
+
+    .xi {
+      width: 300px;
+
+    }
+
+    .yun {
+      width: 300px;
+    }
+
+    .king {
+      width: 320px;
+    }
+
+    .us {
+      width: 80%;
+      margin-left:10%;
+    }
